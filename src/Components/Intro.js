@@ -21,7 +21,7 @@ const Intro = () => {
           </div>
           <div className='foundations'>
             <div className='cause'>
-              <Link to='/home'>
+              <Link to='/home?utm_source=novena-digital&utm_medium=novena&utm_campaign=adopta-no-compres&utm_id=novena'>
                 <img src={adopta} alt="fundacion adopta" onClick={funAdopta} />
               </Link>
             </div>

@@ -14,7 +14,7 @@ export const funTecho = () => {
 }
 export const funFruto = () => {
   const onclick = "gtag('event', 'click', { 'event_category': 'Novena', 'event_label': 'Fundacion_Fruto', 'value': '0'});";
-  console.log(onclick);
+  console.log(onclick, typeof onclick);
   return onclick
 }
 export const funAmese = () => {
