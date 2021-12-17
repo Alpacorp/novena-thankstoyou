@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 import { adopta, amese, fruto, logoTty, MainTitle, sanar, techo } from '../assets';
-import { funAdopta, funSanar, funTecho, funFruto, funAmese } from '../utils/clickEvents';
+import { funSanar, funTecho, funFruto, funAmese } from '../utils/clickEvents';
 import BrandLogo from './BrandLogo';
 import './Components.css';
 
@@ -22,7 +22,7 @@ const Intro = () => {
           <div className='foundations'>
             <div className='cause'>
               <Link to='/home?utm_source=novena-digital&utm_medium=novena&utm_campaign=adopta-no-compres&utm_id=novena'>
-                <img src={adopta} alt="fundacion adopta" onClick={funAdopta} />
+                <img src={adopta} alt="fundacion adopta" onClick={`ga('send', 'event', 'prueba', 'clic', 'blog', 0);`} />
               </Link>
             </div>
             <div className='cause'>
