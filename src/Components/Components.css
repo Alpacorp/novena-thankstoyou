@@ -89,8 +89,13 @@
 }
 
 .introContent .foundations {
+  width: 550px;
   margin: 20px;
+  width: auto;
   position: relative;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 25px;
   z-index: 3;
 }
 
@@ -98,6 +103,7 @@
   max-width: 500px;
   width: 100%;
   cursor: pointer;
+  border-radius: 15px;
 }
 
 .cause img:hover {
@@ -118,6 +124,9 @@
 }
 
 @media screen and (min-width: 800px) {
+  .introContent .foundations {
+    background-color: transparent;
+  }
   .introModal .novenaImage img {
     height: 100px;
   }
