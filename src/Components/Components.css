@@ -139,4 +139,7 @@
   .introModal .introContent {
     margin: 20px;
   }
+  .foundations .cause img {
+    border-radius: 0;
+  }
 }
