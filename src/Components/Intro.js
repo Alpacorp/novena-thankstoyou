@@ -9,7 +9,7 @@ const Intro = () => {
 
   const funAdopta = () => {
     // const onclick = "ga('send', 'event', 'Novena', 'Fundaciones', 'Fundacion_Adopta'); fbq('click', 'Novena');";
-    const onclick = "ga('send', { hitType: 'event', eventCategory: 'click', eventAction: 'click', eventLabel: 'Fundacion_Adopta'});";
+    const onclick = "ga('send', 'event', 'Portal Rastreo Envios', 'Rastreo-Envios-Buscar', 'Rastreo-Envios-Buscar-Boton'); fbq('track', 'Portal Rastreo Envíos');"
     console.log(onclick);
     return onclick
   }
@@ -33,7 +33,7 @@ const Intro = () => {
               </Link>
             </div>
             <div className='cause'>
-              <Link to='/home?utm_source=novena-digital&utm_medium=novena&utm_campaign=sanar&utm_id=novena'>
+              <Link to='/home'>
                 <img src={sanar} alt="fundacion sanar" onClick={funSanar} />
               </Link>
             </div>
