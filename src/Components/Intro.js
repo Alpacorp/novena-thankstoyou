@@ -33,7 +33,7 @@ const Intro = () => {
               </Link>
             </div>
             <div className='cause'>
-              <Link to='/home'>
+              <Link to='/home?utm_source=novena-digital&utm_medium=novena&utm_campaign=sanar&utm_id=novena'>
                 <img src={sanar} alt="fundacion sanar" onClick={funSanar} />
               </Link>
             </div>
