@@ -1,5 +1,6 @@
 export const funAdopta = () => {
-  const onclick = "ga('send', 'event', 'Novena', 'Fundaciones', 'Fundacion_Adopta'); fbq('click', 'Novena');";
+  // const onclick = "ga('send', 'event', 'Novena', 'Fundaciones', 'Fundacion_Adopta'); fbq('click', 'Novena');";
+  const onclick = "gaq.push(['_trackEvent', 'prueba_evento', 'set' + foundationSelectedStepTwo.title.rendered]);";
   return onclick
 }
 export const funSanar = () => {
