@@ -3,18 +3,22 @@ export const funAdopta = () => {
   return onclick
 }
 export const funSanar = () => {
-  const onclick = "ga('send', 'event', 'Novena', 'Fundaciones', 'Fundacion_Sanar'); fbq('click', 'Novena');";
+  const onclick = "gtag('event', 'click', { 'event_category': 'Novena', 'event_label': 'Fundacion_Sanar', 'value': '0'});";
+  console.log(onclick);
   return onclick
 }
 export const funTecho = () => {
-  const onclick = "ga('send', 'event', 'Novena', 'Fundaciones', 'Fundacion_Techo'); fbq('click', 'Novena');";
+  const onclick = "gtag('event', 'click', { 'event_category': 'Novena', 'event_label': 'Fundacion_Techo', 'value': '0'});";
+  console.log(onclick);
   return onclick
 }
 export const funFruto = () => {
-  const onclick = "ga('send', 'event', 'Novena', 'Fundaciones', 'Fundacion_Fruto'); fbq('click', 'Novena');";
+  const onclick = "gtag('event', 'click', { 'event_category': 'Novena', 'event_label': 'Fundacion_Fruto', 'value': '0'});";
+  console.log(onclick);
   return onclick
 }
 export const funAmese = () => {
-  const onclick = "ga('send', 'event', 'Novena', 'Fundaciones', 'Fundacion_Amese'); fbq('click', 'Novena');";
+  const onclick = "gtag('event', 'click', { 'event_category': 'Novena', 'event_label': 'Fundacion_Amese', 'value': '0'});";
+  console.log(onclick);
   return onclick
 }
