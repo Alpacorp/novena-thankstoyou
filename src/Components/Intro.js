@@ -1,18 +1,11 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 import { adopta, amese, fruto, logoTty, MainTitle, sanar, techo } from '../assets';
-import { funSanar, funTecho, funFruto, funAmese } from '../utils/clickEvents';
+import { funAdopta, funSanar, funTecho, funFruto, funAmese } from '../utils/clickEvents';
 import BrandLogo from './BrandLogo';
 import './Components.css';
 
 const Intro = () => {
-
-  const funAdopta = () => {
-    // const onclick = "ga('send', 'event', 'Novena', 'Fundaciones', 'Fundacion_Adopta'); fbq('click', 'Novena');";
-    const onclick = "ga('send', 'event', 'Portal Rastreo Envios', 'Rastreo-Envios-Buscar', 'Rastreo-Envios-Buscar-Boton'); fbq('track', 'Portal Rastreo Envíos');"
-    console.log(onclick);
-    return onclick
-  }
 
   return (
     <>
